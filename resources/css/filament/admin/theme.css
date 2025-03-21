@@ -1,0 +1,21 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+.fi-logo {
+    @apply h-10;
+}
+
+.fi-simple-main {
+    @apply bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100;
+}
+
+.fi-simple-card {
+    @apply bg-white/80 backdrop-blur-xl shadow-2xl rounded-3xl border border-gray-100;
+}
+
+.fi-input {
+    @apply rounded-xl border-indigo-300 focus:border-indigo-500 focus:ring-indigo-500;
+}
+
+.fi-btn-gradient {
+    @apply bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700;
+} 
